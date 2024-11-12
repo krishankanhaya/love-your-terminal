@@ -9,6 +9,7 @@
 
 2. Create a new session:
 - ```tmux new-session -s sess_name```
+- ```tmux -v``` or ```tmux .``` Creating new session without name
 
 3. Attach to an existing tmux session:
 - ```tmux attach -t sess_name```
