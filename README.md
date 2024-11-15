@@ -44,7 +44,7 @@
 - Press `Ctrl + b`, then `.` and choose the index where you want to move the window (e.g., `Ctrl + b -> . -> 2` will move the current window to index 2)
 
 6. Exit or delete a window: 
-- Type `exit` in the window, or: ```tmux kill-window -t win_num```
+- Type `exit` in the window, or: ```tmux kill-window -t win_num``` or ```ctrl + b, then x```
 
 
 # Pane Management (You need to be in a window)
