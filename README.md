@@ -79,3 +79,26 @@ To turn off synchronization:
 8. Switch layouts: 
 - Press `Ctrl + b`, then `Space` (this will cycle through different layouts for your panes)
 
+# Plugins management
+
+1. Clone tmux-plugins tpm : ```git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm```
+2. Edit .tmux.conf
+```
+# Tmux Plugin Manager
+run-shell ~/.tmux/plugins/tpm/tpm
+
+# Example plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-resurrect'   # Automatically saves and restores tmux sessions
+set -g @plugin 'tmux-plugins/tmux-continuum'   # Continuous session saving
+set -g @plugin 'jimeh/tmux-themepack'         # Provides themes for tmux
+```
+3. Reload tmux conf file : ```:source-file ~/.tmux.conf```
+4. Install plugins : ```ctrl + b, then I```
+5. Update plugins :  ```ctrl + b, then Alt + I```
+
+# Save & Restore sessions
+1. Create and open any session you like.
+2. Save session : ```ctrl + b, then ctrl + s```
+3. Restore session : ```ctrl + b, then ctrl + r``` this will restore session that you lost after booting your girlfriend.
+
