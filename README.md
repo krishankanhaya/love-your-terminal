@@ -71,7 +71,7 @@
   ```
   :setw synchronize-panes on
   ```
-To turn off synchronization:
+  To turn off synchronization:
   ```
   :setw synchronize-panes off
   ```
@@ -102,3 +102,22 @@ set -g @plugin 'jimeh/tmux-themepack'         # Provides themes for tmux
 2. Save session : ```ctrl + b, then ctrl + s```
 3. Restore session : ```ctrl + b, then ctrl + r``` this will restore session that you lost after booting your girlfriend.
 
+# Finally it's time to propose
+1. Approach her : ```nvim ~/.bahrc```
+2. Tell her :
+```
+# Alias for tmux
+alias dsa='tmux kill-session' // destroy all his trauma.
+alias ds='tmux kill-session -t' // you have to provide name of his x to remove him completly.
+alias as='tmux attach -t' // remembring good old days
+alias ns='tmux new -s' // finally pupose
+```
+or find some love guru to help you more in this like teej or primeagen.
+3 Let refresh your self : ```source ~/.bashrc```
+4. Then use it :
+```
+dsa
+ds x
+as first-coffie
+ns purpose
+```
