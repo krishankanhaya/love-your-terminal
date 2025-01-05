@@ -1,4 +1,4 @@
-# Starting with Jay Ganesh
+# Starting with ❤️
 
 # Install tmux
 0. ```sudo apt install tmux```
@@ -121,3 +121,7 @@ ds x
 as first-coffie
 ns purpose
 ```
+# It's time to save & restore your loved one's after rebooting
+```ctrl + b, then ctrl + s```  Save
+```ctrl + b, then ctrl + r ``` Restore
+
