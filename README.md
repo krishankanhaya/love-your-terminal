@@ -12,7 +12,7 @@
 - ```tmux -v``` or ```tmux .``` Creating new session without name
 
 3. Attach to an existing tmux session:
-- ```tmux attach -t sess_name```
+- ```tmux attach -t sess_name``` OR ```tmux a -t sess_name```
 
 4. Detach from the current session: 
 - Press `Ctrl + b`, then `d` (detached from the current session)
