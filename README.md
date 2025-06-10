@@ -93,7 +93,7 @@ set -g @plugin 'tmux-plugins/tmux-resurrect'   # Automatically saves and restore
 set -g @plugin 'tmux-plugins/tmux-continuum'   # Continuous session saving
 set -g @plugin 'jimeh/tmux-themepack'         # Provides themes for tmux
 ```
-3. Reload tmux conf file : ```:source-file ~/.tmux.conf```
+3. Reload tmux conf file : ```tmux source-file ~/.tmux.conf```
 4. Install plugins : ```ctrl + b, then I```
 5. Update plugins :  ```ctrl + b, then Alt + I```
 
